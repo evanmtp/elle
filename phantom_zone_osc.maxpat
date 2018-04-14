@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 5,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 375.0, 177.0, 657.0, 593.0 ],
+		"rect" : [ 971.0, 199.0, 657.0, 593.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -69,7 +69,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 15.0, 195.0, 33.0, 22.0 ],
+					"patching_rect" : [ 465.0, 195.0, 33.0, 22.0 ],
 					"style" : "",
 					"text" : "* -1."
 				}
@@ -398,9 +398,9 @@
 					"maxclass" : "mira.frame",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 390.0, 45.0, 105.494508, 75.0 ],
+					"patching_rect" : [ 390.0, 45.0, 105.494507, 75.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 147.692311, 105.0 ]
+					"presentation_rect" : [ 0.0, 0.0, 147.692307, 105.0 ]
 				}
 
 			}
@@ -468,17 +468,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
-					"midpoints" : [ 24.5, 183.0, 24.5, 183.0 ],
-					"order" : 1,
+					"midpoints" : [ 24.5, 183.0, 474.5, 183.0 ],
+					"order" : 0,
 					"source" : [ "obj-18", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-26", 0 ],
-					"midpoints" : [ 24.5, 181.0, 474.5, 181.0 ],
-					"order" : 0,
+					"destination" : [ "obj-27", 0 ],
+					"order" : 1,
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -506,7 +505,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-27", 0 ],
+					"destination" : [ "obj-26", 0 ],
+					"midpoints" : [ 474.5, 220.5, 474.5, 220.5 ],
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -585,12 +585,12 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-41" : [ "live.text[1]", "live.text", 0 ],
 			"obj-40" : [ "live.text", "live.text", 0 ],
-			"obj-11" : [ "number[1]", "number[1]", 0 ],
-			"obj-13" : [ "number[2]", "number[2]", 0 ],
 			"obj-9" : [ "number", "number", 0 ],
-			"obj-15" : [ "number[3]", "number[3]", 0 ]
+			"obj-15" : [ "number[3]", "number[3]", 0 ],
+			"obj-41" : [ "live.text[1]", "live.text", 0 ],
+			"obj-13" : [ "number[2]", "number[2]", 0 ],
+			"obj-11" : [ "number[1]", "number[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
