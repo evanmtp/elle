@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 227.0, 79.0, 1202.0, 933.0 ],
+		"rect" : [ 227.0, 79.0, 1419.0, 933.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 675.0, 585.0, 89.0, 22.0 ],
-					"presentation_rect" : [ 390.0, 723.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "sprintf %s.mov"
 				}
@@ -71,7 +70,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 90.0, 750.0, 67.0, 22.0 ],
-					"presentation_rect" : [ 242.0, 874.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "r l2media_"
 				}
@@ -84,7 +82,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 945.0, 137.0, 22.0 ],
-					"presentation_rect" : [ 417.0, 1171.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "udpsend localhost 8010"
 				}
@@ -246,7 +243,6 @@
 					}
 ,
 					"patching_rect" : [ 180.0, 870.0, 33.0, 22.0 ],
-					"presentation_rect" : [ 619.0, 911.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -317,7 +313,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 720.0, 137.0, 22.0 ],
-					"presentation_rect" : [ 747.0, 1139.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "udpsend localhost 8010"
 				}
@@ -406,7 +401,6 @@
 					}
 ,
 					"patching_rect" : [ 15.0, 615.0, 41.0, 22.0 ],
-					"presentation_rect" : [ 747.0, 1040.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -428,9 +422,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 420.0, 660.0, 225.0, 35.0 ],
+					"patching_rect" : [ 420.0, 660.0, 210.0, 35.0 ],
 					"style" : "",
-					"text" : "prepend /surfaces/shipmesh1btm/media_name"
+					"text" : "prepend /surfaces/shipflat1btm/media_name"
 				}
 
 			}
@@ -510,9 +504,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 660.0, 221.0, 35.0 ],
+					"patching_rect" : [ 195.0, 660.0, 207.0, 35.0 ],
 					"style" : "",
-					"text" : "prepend /surfaces/shipmesh1top/media_name"
+					"text" : "prepend /surfaces/shipflat1top/media_name"
 				}
 
 			}
@@ -636,7 +630,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 210.0, 120.0, 180.0, 35.0 ],
 					"style" : "",
-					"text" : "prepend /surfaces/shipmesh1btm/opacity"
+					"text" : "prepend /surfaces/shipflat1btm/opacity"
 				}
 
 			}
@@ -656,7 +650,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1461,9 +1455,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1125.0, 660.0, 225.0, 35.0 ],
+					"patching_rect" : [ 1125.0, 660.0, 210.0, 35.0 ],
 					"style" : "",
-					"text" : "prepend /surfaces/shipmesh2btm/media_name"
+					"text" : "prepend /surfaces/shipflat2btm/media_name"
 				}
 
 			}
@@ -1475,9 +1469,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 600.0, 120.0, 177.0, 35.0 ],
+					"patching_rect" : [ 600.0, 120.0, 180.0, 35.0 ],
 					"style" : "",
-					"text" : "prepend /surfaces/shipmesh2top/opacity"
+					"text" : "prepend /surfaces/shipflat2top/opacity"
 				}
 
 			}
@@ -1584,14 +1578,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-125",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1605.0, 270.0, 255.0, 35.0 ],
+					"patching_rect" : [ 1605.0, 270.0, 279.0, 22.0 ],
 					"style" : "",
-					"text" : "prepend /surfaces/shipmesh1btm/parameters/Radius"
+					"text" : "prepend /surfaces/shipflat1btm/parameters/Radius"
 				}
 
 			}
@@ -1723,9 +1716,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 885.0, 660.0, 221.0, 35.0 ],
+					"patching_rect" : [ 885.0, 660.0, 207.0, 35.0 ],
 					"style" : "",
-					"text" : "prepend /surfaces/shipmesh2top/media_name"
+					"text" : "prepend /surfaces/shipflat2top/media_name"
 				}
 
 			}
@@ -1744,13 +1737,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-59",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 675.0, 660.0, 203.0, 22.0 ],
+					"patching_rect" : [ 675.0, 660.0, 165.0, 35.0 ],
 					"style" : "",
-					"text" : "prepend /surfaces/bg2/media_name"
+					"text" : "prepend /surfaces/bg2_/media_name"
 				}
 
 			}
@@ -1787,9 +1781,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 930.0, 120.0, 125.0, 35.0 ],
+					"patching_rect" : [ 930.0, 120.0, 135.0, 35.0 ],
 					"style" : "",
-					"text" : "prepend /surfaces/bg2/opacity"
+					"text" : "prepend /surfaces/bg2_/opacity"
 				}
 
 			}
@@ -1801,9 +1795,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 810.0, 300.0, 110.0, 35.0 ],
+					"patching_rect" : [ 810.0, 300.0, 120.0, 35.0 ],
 					"style" : "",
-					"text" : "prepend /surfaces/bg2/blue"
+					"text" : "prepend /surfaces/bg2_/blue"
 				}
 
 			}
@@ -1815,9 +1809,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 645.0, 300.0, 118.0, 35.0 ],
+					"patching_rect" : [ 645.0, 300.0, 128.0, 35.0 ],
 					"style" : "",
-					"text" : "prepend /surfaces/bg2/green"
+					"text" : "prepend /surfaces/bg2_/green"
 				}
 
 			}
@@ -1829,9 +1823,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 495.0, 300.0, 105.0, 35.0 ],
+					"patching_rect" : [ 495.0, 300.0, 114.0, 35.0 ],
 					"style" : "",
-					"text" : "prepend /surfaces/bg2/red"
+					"text" : "prepend /surfaces/bg2_/red"
 				}
 
 			}
@@ -1859,9 +1853,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 795.0, 120.0, 125.0, 35.0 ],
+					"patching_rect" : [ 795.0, 120.0, 135.0, 35.0 ],
 					"style" : "",
-					"text" : "prepend /surfaces/bg1/opacity"
+					"text" : "prepend /surfaces/bg1_/opacity"
 				}
 
 			}
@@ -1958,7 +1952,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 405.0, 120.0, 180.0, 35.0 ],
 					"style" : "",
-					"text" : "prepend /surfaces/shipmesh2btm/opacity"
+					"text" : "prepend /surfaces/shipflat2btm/opacity"
 				}
 
 			}
@@ -2031,9 +2025,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 120.0, 180.0, 35.0 ],
+					"patching_rect" : [ 15.0, 120.0, 177.0, 35.0 ],
 					"style" : "",
-					"text" : "prepend /surfaces/shipmesh1top/opacity"
+					"text" : "prepend /surfaces/shipflat1top/opacity"
 				}
 
 			}
@@ -2750,19 +2744,19 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-49" : [ "number[2]", "number[2]", 0 ],
-			"obj-51" : [ "number[1]", "number[1]", 0 ],
-			"obj-134" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-105" : [ "live.tab", "live.tab", 0 ],
-			"obj-146" : [ "number[4]", "number[4]", 0 ],
-			"obj-10" : [ "slider[1]", "slider[1]", 0 ],
 			"obj-53" : [ "number", "number", 0 ],
-			"obj-123" : [ "slider[2]", "slider", 0 ],
-			"obj-41" : [ "live.text[1]", "live.text", 0 ],
-			"obj-24" : [ "live.text", "live.text", 0 ],
 			"obj-47" : [ "number[3]", "number[3]", 0 ],
+			"obj-123" : [ "slider[2]", "slider", 0 ],
+			"obj-146" : [ "number[4]", "number[4]", 0 ],
+			"obj-41" : [ "live.text[1]", "live.text", 0 ],
+			"obj-105" : [ "live.tab", "live.tab", 0 ],
+			"obj-49" : [ "number[2]", "number[2]", 0 ],
 			"obj-6" : [ "slider", "slider", 0 ],
-			"obj-36" : [ "slider[3]", "slider[3]", 0 ]
+			"obj-10" : [ "slider[1]", "slider[1]", 0 ],
+			"obj-24" : [ "live.text", "live.text", 0 ],
+			"obj-51" : [ "number[1]", "number[1]", 0 ],
+			"obj-36" : [ "slider[3]", "slider[3]", 0 ],
+			"obj-134" : [ "live.tab[2]", "live.tab", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -2817,8 +2811,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
