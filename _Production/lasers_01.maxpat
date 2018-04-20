@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 628.0, 79.0, 846.0, 783.0 ],
+		"rect" : [ 96.0, 221.0, 846.0, 783.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,45 @@
 		"style" : "",
 		"subpatcher_template" : "evan",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-57",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 120.0, 570.0, 54.0, 22.0 ],
+					"style" : "",
+					"text" : "visible 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-42",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 120.0, 540.0, 150.0, 22.0 ],
+					"style" : "",
+					"text" : "j.initialized laserslide 2000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 45.0, 540.0, 72.0, 22.0 ],
+					"style" : "",
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-71",
 					"maxclass" : "message",
@@ -139,7 +178,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 885.0, 0.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 240.0, 210.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 255.0, 225.0, 90.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.tab[2]",
@@ -180,7 +219,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 375.0, 90.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 135.0, 210.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 150.0, 225.0, 90.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.tab[1]",
@@ -260,7 +299,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 240.0, 90.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 30.0, 210.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 30.0, 225.0, 105.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.tab",
@@ -295,7 +334,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 855.0, 615.0, 29.5, 22.0 ],
+					"patching_rect" : [ 1140.0, 615.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "1"
 				}
@@ -309,7 +348,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 855.0, 660.0, 105.0, 35.0 ],
+					"patching_rect" : [ 1140.0, 660.0, 105.0, 35.0 ],
 					"style" : "",
 					"text" : "j.send /laserslide/vertex"
 				}
@@ -476,7 +515,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 735.0, 660.0, 104.0, 35.0 ],
+					"patching_rect" : [ 1020.0, 660.0, 104.0, 35.0 ],
 					"style" : "",
 					"text" : "j.send /laserslide/decay"
 				}
@@ -490,7 +529,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 615.0, 660.0, 104.0, 35.0 ],
+					"patching_rect" : [ 900.0, 660.0, 104.0, 35.0 ],
 					"style" : "",
 					"text" : "j.send /laserslide/attack"
 				}
@@ -503,7 +542,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 735.0, 615.0, 29.5, 22.0 ],
+					"patching_rect" : [ 1020.0, 615.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "0.7"
 				}
@@ -516,7 +555,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 615.0, 615.0, 29.5, 22.0 ],
+					"patching_rect" : [ 900.0, 615.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "0."
 				}
@@ -542,7 +581,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 480.0, 660.0, 130.0, 35.0 ],
+					"patching_rect" : [ 765.0, 660.0, 130.0, 35.0 ],
 					"style" : "",
 					"text" : "j.send /laserslide/GL/context"
 				}
@@ -555,7 +594,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 360.0, 615.0, 43.0, 22.0 ],
+					"patching_rect" : [ 645.0, 615.0, 43.0, 22.0 ],
 					"style" : "",
 					"text" : "lasers"
 				}
@@ -569,7 +608,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 360.0, 660.0, 111.0, 35.0 ],
+					"patching_rect" : [ 645.0, 660.0, 111.0, 35.0 ],
 					"style" : "",
 					"text" : "j.send /laserslide/context"
 				}
@@ -582,7 +621,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 360.0, 570.0, 120.0, 22.0 ],
+					"patching_rect" : [ 645.0, 570.0, 120.0, 22.0 ],
 					"style" : "",
 					"text" : "j.initialized laserslide"
 				}
@@ -668,7 +707,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 675.0, 85.0, 22.0 ],
+					"patching_rect" : [ 15.0, 720.0, 85.0, 22.0 ],
 					"style" : "",
 					"text" : "s draw_lasers"
 				}
@@ -1435,6 +1474,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-41", 0 ],
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-30", 0 ],
 									"midpoints" : [ 774.5, 242.0, 24.5, 242.0 ],
 									"source" : [ "obj-13", 0 ]
@@ -1764,6 +1810,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-41", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-33", 0 ],
 									"source" : [ "obj-42", 0 ]
 								}
@@ -1873,7 +1926,7 @@
 					"patching_rect" : [ 615.0, 30.0, 210.0, 150.0 ],
 					"pinch_enabled" : 0,
 					"presentation" : 1,
-					"presentation_rect" : [ 30.0, 30.0, 300.0, 165.0 ],
+					"presentation_rect" : [ 30.0, 30.0, 315.0, 180.0 ],
 					"remote_circles" : 0,
 					"remote_gestures" : 0,
 					"rotate_enabled" : 0,
@@ -1918,7 +1971,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 360.0, 705.0, 255.0, 20.0 ],
+					"patching_rect" : [ 645.0, 705.0, 255.0, 20.0 ],
 					"style" : "",
 					"text" : "https://www.shadertoy.com/view/Md2SR3"
 				}
@@ -1945,9 +1998,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 45.0, 525.0, 40.0, 20.0 ],
+					"patching_rect" : [ 45.0, 570.0, 40.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 30.0, 255.0, 40.0, 20.0 ],
+					"presentation_rect" : [ 30.0, 300.0, 40.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "toggle",
@@ -1968,14 +2021,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-2",
-					"linecount" : 5,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "" ],
-					"patching_rect" : [ 15.0, 570.0, 135.0, 76.0 ],
+					"patching_rect" : [ 15.0, 615.0, 563.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.world lasers @high_res 1 @fsaa 1 @erase_color 0 0 0 1 @fsmenubar 0 @enable 1 @visible 0"
+					"text" : "jit.world lasers @high_res 1 @fsaa 1 @erase_color 0 0 0 1 @fsmenubar 0 @enable 1 @dim 1920 1080"
 				}
 
 			}
@@ -2052,20 +2104,7 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-1",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 15.0, 30.0, 22.0 ],
-									"style" : "",
-									"text" : "in 1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"code" : "makePoint(x, y, fx, fy, sx, sy, t,weight,bloom){\r\n   xx=x*cos(t*fx);\r\n   yy=y*sin(t*fy);\r\n   return weight/ (sqrt(length(xx+yy)+length(xx*yy)))+((bloom-1.)*20);\r\n}\r\n\r\nParam timer(1.);\r\n\r\nParam c01 (0.8, 0.5);\r\nParam c03 (0.2, 0.5);\r\nParam c02 (0.2, 0.5);\r\nParam c04 (0.2, 0.5);\r\nParam c05 (0.2, 0.5);\r\nParam c06 (0.2, 0.5);\r\nParam c07 (0.2, 0.5);\r\nParam c08 (0.2, 0.5);\r\nParam c09 (0.2, 0.5);\r\nParam c10 (0.2, 0.5);\r\n\r\nParam t01 (0.);\r\nParam t02 (0.);\r\nParam t03 (0.);\r\nParam t04 (0.);\r\nParam t05 (0.);\r\nParam t06 (0.);\r\nParam t07 (0.);\r\nParam t08 (0.);\r\nParam t09 (0.);\r\nParam t10 (0.);\r\n\r\nParam col01(1.,1.,1.);\r\nParam col02(1.,1.,1.);\r\nParam col03(1.,1.,1.);\r\nParam col04(1.,1.,1.);\r\nParam col05(1.,1.,1.);\r\nParam col06(1.,1.,1.);\r\nParam col07(1.,1.,1.);\r\nParam col08(1.,1.,1.);\r\nParam col09(1.,1.,1.);\r\nParam col10(1.,1.,1.);\r\n\r\nParam weight (1.);\r\nParam bloom (1.);\r\n\r\np=vec(cell.x/dim.x, cell.y/dim.x)*2.0-vec(1.0,dim.y/dim.x);\r\n\r\nbl = clip(bloom,0.,1.);\r\n   \r\nx=p.x;\r\ny=p.y;\r\n\r\na=\r\n\tmakePoint(x+c01.x,y+c01.y,3.3,2.9,0.3,0.3,timer,weight,bl)*t01*col01;\r\na=a+makePoint(x+c02.x,y+c02.y,1.9,2.0,0.4,0.4,timer,weight,bl)*t02*col02;\r\na=a+makePoint(x+c03.x,y+c03.y,0.8,0.7,0.4,0.5,timer,weight,bl)*t03*col03;\r\na=a+makePoint(x+c04.x,y+c04.y,2.3,0.1,0.6,0.3,timer,weight,bl)*t04*col04;\r\na=a+makePoint(x+c05.x,y+c05.y,0.8,1.7,0.5,0.4,timer,weight,bl)*t05*col05;\r\na=a+makePoint(x+c06.x,y+c06.y,0.3,1.0,0.4,0.4,timer,weight,bl)*t06*col06;\r\na=a+makePoint(x+c07.x,y+c07.y,1.4,1.7,0.4,0.5,timer,weight,bl)*t07*col07;\r\na=a+makePoint(x+c08.x,y+c08.y,1.3,2.1,0.6,0.3,timer,weight,bl)*t08*col08;\r\na=a+makePoint(x+c09.x,y+c09.y,1.8,1.7,0.5,0.4,timer,weight,bl)*t10*col09;\r\na=a+makePoint(x+c10.x,y+c10.y,1.8,1.7,0.5,0.4,timer,weight,bl)*t10*col10;\r\n\r\nb=\r\n\tmakePoint(x+c01.x,y+c01.y,1.2,1.9,0.3,0.3,timer,weight,bl)*t01*col01;\r\nb=b+makePoint(x+c02.x,y+c02.y,0.7,2.7,0.4,0.4,timer,weight,bl)*t02*col02;\r\nb=b+makePoint(x+c03.x,y+c03.y,1.4,0.6,0.4,0.5,timer,weight,bl)*t03*col03;\r\nb=b+makePoint(x+c04.x,y+c04.y,2.6,0.9,0.6,0.3,timer,weight,bl)*t04*col04;\r\nb=b+makePoint(x+c05.x,y+c05.y,0.7,1.4,0.5,0.4,timer,weight,bl)*t05*col05;\r\nb=b+makePoint(x+c06.x,y+c06.y,0.7,1.7,0.4,0.4,timer,weight,bl)*t06*col06;\r\nb=b+makePoint(x+c07.x,y+c07.y,0.8,0.5,0.4,0.5,timer,weight,bl)*t07*col07;\r\nb=b+makePoint(x+c08.x,y+c08.y,1.4,0.7,0.6,0.3,timer,weight,bl)*t08*col08;\r\nb=b+makePoint(x+c09.x,y+c09.y,0.7,1.3,0.5,0.4,timer,weight,bl)*t09*col09;\r\nb=b+makePoint(x+c10.x,y+c10.y,0.7,1.3,0.5,0.4,timer,weight,bl)*t10*col10;\r\nc=\r\n\tmakePoint(x+c01.x,y+c01.y,3.7,0.3,0.3,0.3,timer,weight,bl)*t01*col01;\r\nc=c+makePoint(x+c02.x,y+c02.y,1.9,1.3,0.4,0.4,timer,weight,bl)*t02*col02;\r\nc=c+makePoint(x+c03.x,y+c03.y,0.8,0.9,0.4,0.5,timer,weight,bl)*t03*col03;\r\nc=c+makePoint(x+c04.x,y+c04.y,1.2,1.7,0.6,0.3,timer,weight,bl)*t04*col04;\r\nc=c+makePoint(x+c05.x,y+c05.y,0.3,0.6,0.5,0.4,timer,weight,bl)*t05*col05;\r\nc=c+makePoint(x+c06.x,y+c06.y,0.3,0.3,0.4,0.4,timer,weight,bl)*t06*col06;\r\nc=c+makePoint(x+c07.x,y+c07.y,1.4,0.8,0.4,0.5,timer,weight,bl)*t07*col07;\r\nc=c+makePoint(x+c08.x,y+c08.y,0.2,0.6,0.6,0.3,timer,weight,bl)*t08*col08;\r\nc=c+makePoint(x+c09.x,y+c09.y,1.3,0.5,0.5,0.4,timer,weight,bl)*t09*col09;\r\nc=c+makePoint(x+c10.x,y+c10.y,1.3,0.5,0.5,0.4,timer,weight,bl)*t10*col10;\r\n\r\nd=vec(a.r+b.r+c.r,a.g+b.g+c.g,a.b+b.b+c.b)*0.01;\r\n\r\nout1 = vec(d.x, d.y, d.z, 1.0);",
+									"code" : "makePoint(x, y, fx, fy, sx, sy, t,weight,bloom){\r\n   xx=x*cos(t*fx);\r\n   yy=y*sin(t*fy);\r\n   return weight/ (sqrt(length(xx+yy)+length(xx*yy)))+((bloom-1.)*20);\r\n}\r\n\r\nParam timer(1.);\r\n\r\nParam c01 (0.8, 0.5);\r\nParam c02 (0.2, 0.5);\r\nParam c03 (0.2, 0.5);\r\nParam c04 (0.2, 0.5);\r\nParam c05 (0.2, 0.5);\r\nParam c06 (0.2, 0.5);\r\nParam c07 (0.2, 0.5);\r\nParam c08 (0.2, 0.5);\r\nParam c09 (0.2, 0.5);\r\nParam c10 (0.2, 0.5);\r\n\r\nParam t01 (0.);\r\nParam t02 (0.);\r\nParam t03 (0.);\r\nParam t04 (0.);\r\nParam t05 (0.);\r\nParam t06 (0.);\r\nParam t07 (0.);\r\nParam t08 (0.);\r\nParam t09 (0.);\r\nParam t10 (0.);\r\n\r\nParam col01(1.,1.,1.);\r\nParam col02(1.,1.,1.);\r\nParam col03(1.,1.,1.);\r\nParam col04(1.,1.,1.);\r\nParam col05(1.,1.,1.);\r\nParam col06(1.,1.,1.);\r\nParam col07(1.,1.,1.);\r\nParam col08(1.,1.,1.);\r\nParam col09(1.,1.,1.);\r\nParam col10(1.,1.,1.);\r\n\r\nParam weight (1.);\r\nParam bloom (1.);\r\n\r\np=vec(cell.x/dim.x, cell.y/dim.x)*2.0-vec(1.0,dim.y/dim.x);\r\n\r\nbl = clip(bloom,0.,1.);\r\n   \r\nx=p.x;\r\ny=p.y;\r\n\r\na=\r\n\tmakePoint(x+c01.x,y+c01.y,3.3,2.9,0.3,0.3,timer,weight,bl)*t01*col01;\r\na=a+makePoint(x+c02.x,y+c02.y,1.9,2.0,0.4,0.4,timer,weight,bl)*t02*col02;\r\na=a+makePoint(x+c03.x,y+c03.y,0.8,0.7,0.4,0.5,timer,weight,bl)*t03*col03;\r\na=a+makePoint(x+c04.x,y+c04.y,2.3,0.1,0.6,0.3,timer,weight,bl)*t04*col04;\r\na=a+makePoint(x+c05.x,y+c05.y,0.8,1.7,0.5,0.4,timer,weight,bl)*t05*col05;\r\na=a+makePoint(x+c06.x,y+c06.y,0.3,1.0,0.4,0.4,timer,weight,bl)*t06*col06;\r\na=a+makePoint(x+c07.x,y+c07.y,1.4,1.7,0.4,0.5,timer,weight,bl)*t07*col07;\r\na=a+makePoint(x+c08.x,y+c08.y,1.3,2.1,0.6,0.3,timer,weight,bl)*t08*col08;\r\na=a+makePoint(x+c09.x,y+c09.y,1.8,1.7,0.5,0.4,timer,weight,bl)*t10*col09;\r\na=a+makePoint(x+c10.x,y+c10.y,1.8,1.7,0.5,0.4,timer,weight,bl)*t10*col10;\r\n\r\nb=\r\n\tmakePoint(x+c01.x,y+c01.y,1.2,1.9,0.3,0.3,timer,weight,bl)*t01*col01;\r\nb=b+makePoint(x+c02.x,y+c02.y,0.7,2.7,0.4,0.4,timer,weight,bl)*t02*col02;\r\nb=b+makePoint(x+c03.x,y+c03.y,1.4,0.6,0.4,0.5,timer,weight,bl)*t03*col03;\r\nb=b+makePoint(x+c04.x,y+c04.y,2.6,0.9,0.6,0.3,timer,weight,bl)*t04*col04;\r\nb=b+makePoint(x+c05.x,y+c05.y,0.7,1.4,0.5,0.4,timer,weight,bl)*t05*col05;\r\nb=b+makePoint(x+c06.x,y+c06.y,0.7,1.7,0.4,0.4,timer,weight,bl)*t06*col06;\r\nb=b+makePoint(x+c07.x,y+c07.y,0.8,0.5,0.4,0.5,timer,weight,bl)*t07*col07;\r\nb=b+makePoint(x+c08.x,y+c08.y,1.4,0.7,0.6,0.3,timer,weight,bl)*t08*col08;\r\nb=b+makePoint(x+c09.x,y+c09.y,0.7,1.3,0.5,0.4,timer,weight,bl)*t09*col09;\r\nb=b+makePoint(x+c10.x,y+c10.y,0.7,1.3,0.5,0.4,timer,weight,bl)*t10*col10;\r\nc=\r\n\tmakePoint(x+c01.x,y+c01.y,3.7,0.3,0.3,0.3,timer,weight,bl)*t01*col01;\r\nc=c+makePoint(x+c02.x,y+c02.y,1.9,1.3,0.4,0.4,timer,weight,bl)*t02*col02;\r\nc=c+makePoint(x+c03.x,y+c03.y,0.8,0.9,0.4,0.5,timer,weight,bl)*t03*col03;\r\nc=c+makePoint(x+c04.x,y+c04.y,1.2,1.7,0.6,0.3,timer,weight,bl)*t04*col04;\r\nc=c+makePoint(x+c05.x,y+c05.y,0.3,0.6,0.5,0.4,timer,weight,bl)*t05*col05;\r\nc=c+makePoint(x+c06.x,y+c06.y,0.3,0.3,0.4,0.4,timer,weight,bl)*t06*col06;\r\nc=c+makePoint(x+c07.x,y+c07.y,1.4,0.8,0.4,0.5,timer,weight,bl)*t07*col07;\r\nc=c+makePoint(x+c08.x,y+c08.y,0.2,0.6,0.6,0.3,timer,weight,bl)*t08*col08;\r\nc=c+makePoint(x+c09.x,y+c09.y,1.3,0.5,0.5,0.4,timer,weight,bl)*t09*col09;\r\nc=c+makePoint(x+c10.x,y+c10.y,1.3,0.5,0.5,0.4,timer,weight,bl)*t10*col10;\r\n\r\nd=vec(a.r+b.r+c.r,a.g+b.g+c.g,a.b+b.b+c.b)*0.01;\r\n\r\nout1 = vec(d.x, d.y, d.z, 1.0);",
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -2093,13 +2132,6 @@
 							}
  ],
 						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
-									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
 									"source" : [ "obj-3", 0 ]
@@ -2152,7 +2184,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 525.0, 120.0, 22.0 ],
+					"patching_rect" : [ 195.0, 570.0, 120.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -2192,7 +2224,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 525.0, 120.0, 22.0 ],
+					"patching_rect" : [ 330.0, 570.0, 120.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -2246,7 +2278,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 249.5, 558.0, 24.5, 558.0 ],
+					"midpoints" : [ 339.5, 603.0, 24.5, 603.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -2300,6 +2332,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-20", 1 ],
 					"midpoints" : [ 294.5, 198.0, 185.0, 198.0 ],
 					"source" : [ "obj-18", 0 ]
@@ -2309,7 +2348,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
-					"midpoints" : [ 82.5, 660.0, 24.5, 660.0 ],
+					"midpoints" : [ 296.5, 705.0, 24.5, 705.0 ],
 					"source" : [ "obj-2", 1 ]
 				}
 
@@ -2398,7 +2437,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
-					"midpoints" : [ 369.5, 603.0, 624.5, 603.0 ],
+					"midpoints" : [ 654.5, 603.0, 909.5, 603.0 ],
 					"order" : 2,
 					"source" : [ "obj-31", 0 ]
 				}
@@ -2407,7 +2446,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
-					"midpoints" : [ 369.5, 603.0, 744.5, 603.0 ],
+					"midpoints" : [ 654.5, 603.0, 1029.5, 603.0 ],
 					"order" : 1,
 					"source" : [ "obj-31", 0 ]
 				}
@@ -2424,7 +2463,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
-					"midpoints" : [ 369.5, 603.0, 864.5, 603.0 ],
+					"midpoints" : [ 654.5, 603.0, 1149.5, 603.0 ],
 					"order" : 0,
 					"source" : [ "obj-31", 0 ]
 				}
@@ -2441,7 +2480,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
-					"midpoints" : [ 369.5, 648.0, 489.5, 648.0 ],
+					"midpoints" : [ 654.5, 648.0, 774.5, 648.0 ],
 					"order" : 0,
 					"source" : [ "obj-35", 0 ]
 				}
@@ -2465,7 +2504,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 54.5, 559.0, 24.5, 559.0 ],
+					"midpoints" : [ 54.5, 604.0, 24.5, 604.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -2481,6 +2520,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-41", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-57", 0 ],
+					"source" : [ "obj-42", 0 ]
 				}
 
 			}
@@ -2631,6 +2677,13 @@
 					"destination" : [ "obj-1", 0 ],
 					"midpoints" : [ 894.5, 288.0, 24.5, 288.0 ],
 					"source" : [ "obj-56", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-57", 0 ]
 				}
 
 			}
@@ -2816,14 +2869,14 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-14" : [ "number[1]", "number[1]", 0 ],
+			"obj-4" : [ "toggle", "toggle", 0 ],
+			"obj-40" : [ "number[4]", "number[4]", 0 ],
+			"obj-23" : [ "number[2]", "number[2]", 0 ],
+			"obj-9" : [ "live.tab", "live.tab", 0 ],
 			"obj-27" : [ "number[3]", "number[3]", 0 ],
 			"obj-39" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-4" : [ "toggle", "toggle", 0 ],
-			"obj-9" : [ "live.tab", "live.tab", 0 ],
-			"obj-44" : [ "live.tab[2]", "live.tab[2]", 0 ],
-			"obj-14" : [ "number[1]", "number[1]", 0 ],
-			"obj-40" : [ "number[4]", "number[4]", 0 ],
-			"obj-23" : [ "number[2]", "number[2]", 0 ]
+			"obj-44" : [ "live.tab[2]", "live.tab[2]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
