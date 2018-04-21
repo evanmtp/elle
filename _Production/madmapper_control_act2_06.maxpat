@@ -38,6 +38,47 @@
 		"subpatcher_template" : "evan",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-84",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1215.0, 330.0, 50.0, 35.0 ],
+					"style" : "",
+					"text" : "10_end.mov"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-51",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 180.0, 150.0, 82.0, 22.0 ],
+					"style" : "",
+					"text" : "speedlim 200"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 180.0, 120.0, 92.0, 22.0 ],
+					"presentation_rect" : [ 186.0, 134.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "r from_faderfox"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-65",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -328,8 +369,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -594,8 +635,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -648,7 +689,7 @@
 				"box" : 				{
 					"id" : "obj-79",
 					"maxclass" : "live.tab",
-					"num_lines_patching" : 15,
+					"num_lines_patching" : 14,
 					"num_lines_presentation" : 15,
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -656,13 +697,13 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1710.0, 75.0, 195.0, 195.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1245.0, 45.0, 150.0, 315.0 ],
+					"presentation_rect" : [ 1095.0, 45.0, 150.0, 315.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.tab[7]",
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
-							"parameter_enum" : [ "Black", "Max - lasers", "00_space.mov", "hold", "hold", "07_pre-wormwhole.mov", "hold", "hold", "hold", "hold", "09_sandy.mov", "hold", "hold", "hold", "Max - porta" ],
+							"parameter_enum" : [ "Black", "Max - lasers", "00_space.mov", "hold", "hold", "07_pre-wormwhole.mov", "hold", "hold", "hold", "hold", "09_sandy.mov", "hold", "hold", "hold" ],
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 1.0 ],
 							"parameter_unitstyle" : 0
@@ -683,7 +724,7 @@
 					"patching_rect" : [ 1755.0, 14.999998, 105.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 1245.0, 0.0, 51.0, 47.0 ],
+					"presentation_rect" : [ 1095.0, 0.0, 51.0, 47.0 ],
 					"style" : "",
 					"text" : "layer 1 ship btm"
 				}
@@ -693,7 +734,7 @@
 				"box" : 				{
 					"id" : "obj-81",
 					"maxclass" : "live.tab",
-					"num_lines_patching" : 15,
+					"num_lines_patching" : 14,
 					"num_lines_presentation" : 15,
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -707,7 +748,7 @@
 							"parameter_longname" : "live.tab[8]",
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
-							"parameter_enum" : [ "Black", "Black", "Black", "Black", "Black", "Black", "Black", "Black", "Black", "Black", "Black", "Black", "Max - akiko", "Black", "Black" ],
+							"parameter_enum" : [ "Black", "Black", "Black", "Black", "Black", "Black", "Black", "Black", "Black", "Black", "Black", "Black", "Max - akiko", "Black" ],
 							"parameter_unitstyle" : 0
 						}
 
@@ -1102,8 +1143,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1368,8 +1409,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1422,7 +1463,7 @@
 				"box" : 				{
 					"id" : "obj-45",
 					"maxclass" : "live.tab",
-					"num_lines_patching" : 15,
+					"num_lines_patching" : 14,
 					"num_lines_presentation" : 15,
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1436,7 +1477,7 @@
 							"parameter_longname" : "live.tab[5]",
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
-							"parameter_enum" : [ "Black", "Max - lasers", "00_space.mov", "hold", "hold", "07_pre-wormwhole.mov", "hold", "hold", "hold", "hold", "09_sandy.mov", "hold", "hold", "hold", "Max - porta" ],
+							"parameter_enum" : [ "Black", "Max - lasers", "00_space.mov", "hold", "hold", "07_pre-wormwhole.mov", "hold", "hold", "hold", "hold", "09_sandy.mov", "hold", "hold", "hold" ],
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 1.0 ],
 							"parameter_unitstyle" : 0
@@ -1467,7 +1508,7 @@
 				"box" : 				{
 					"id" : "obj-48",
 					"maxclass" : "live.tab",
-					"num_lines_patching" : 15,
+					"num_lines_patching" : 14,
 					"num_lines_presentation" : 15,
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1475,13 +1516,13 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1905.0, 75.0, 195.0, 195.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1095.0, 45.0, 150.0, 315.0 ],
+					"presentation_rect" : [ 1245.0, 45.0, 150.0, 315.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.tab[6]",
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
-							"parameter_enum" : [ "Black", "Black", "Black", "Black", "Black", "Black", "Emergency", "Green", "Black", "Black", "Black", "Emergency", "Max - akiko", "Black", "Black" ],
+							"parameter_enum" : [ "Black", "Black", "Black", "Black", "Black", "Black", "Emergency", "Green", "Black", "Black", "Black", "Emergency", "Max - akiko", "Black" ],
 							"parameter_unitstyle" : 0
 						}
 
@@ -1500,7 +1541,7 @@
 					"patching_rect" : [ 1965.0, 15.0, 90.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1095.0, 15.0, 51.0, 33.0 ],
+					"presentation_rect" : [ 1245.0, 15.0, 51.0, 33.0 ],
 					"style" : "",
 					"text" : "layer 2 ship top"
 				}
@@ -2845,15 +2886,26 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "evan",
-						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-54",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1095.0, 90.0, 75.0, 20.0 ],
+									"presentation_rect" : [ 1091.0, 93.0, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "End"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-53",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 945.0, 90.0, 75.0, 20.0 ],
-									"presentation_rect" : [ 940.0, 90.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "Emergency"
 								}
@@ -2866,7 +2918,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 1020.0, 90.0, 75.0, 20.0 ],
-									"presentation_rect" : [ 948.0, 97.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "Akiko"
 								}
@@ -2879,7 +2930,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 870.0, 90.0, 75.0, 20.0 ],
-									"presentation_rect" : [ 871.0, 87.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "Dust"
 								}
@@ -2894,7 +2944,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 165.0, 15.0, 50.0, 22.0 ],
 									"style" : "",
-									"text" : "12"
+									"text" : "13"
 								}
 
 							}
@@ -3066,7 +3116,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1095.0, 345.0, 67.0, 22.0 ],
 									"style" : "",
-									"text" : "0., 1 5000."
+									"text" : "0., 1 1000."
 								}
 
 							}
@@ -3350,9 +3400,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1095.0, 120.0, 67.0, 22.0 ],
+									"patching_rect" : [ 1095.0, 120.0, 71.0, 22.0 ],
 									"style" : "",
-									"text" : "0., 1 1000."
+									"text" : "1., 0. 1000."
 								}
 
 							}
@@ -5089,8 +5139,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6128,7 +6178,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "evan",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -6375,7 +6424,7 @@
 				"box" : 				{
 					"id" : "obj-38",
 					"maxclass" : "live.tab",
-					"num_lines_patching" : 15,
+					"num_lines_patching" : 14,
 					"num_lines_presentation" : 15,
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -6389,7 +6438,7 @@
 							"parameter_longname" : "live.tab[3]",
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
-							"parameter_enum" : [ "LasersBG", "LasersShip", "PreScWarp", "ScWarp", "PostScWarp", "TakeOff", "Emergency", "Green", "Pre_Worm", "Wormhole", "Dust", "Emergency", "Akiko", "Post-Akiko", "Portal" ],
+							"parameter_enum" : [ "LasersBG", "LasersShip", "PreScWarp", "ScWarp", "PostScWarp", "TakeOff", "Emergency", "Green", "Pre_Worm", "Wormhole", "Dust", "Emergency", "Akiko", "Portal" ],
 							"parameter_unitstyle" : 0
 						}
 
@@ -6581,7 +6630,7 @@
 				"box" : 				{
 					"id" : "obj-134",
 					"maxclass" : "live.tab",
-					"num_lines_patching" : 15,
+					"num_lines_patching" : 14,
 					"num_lines_presentation" : 15,
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -6595,7 +6644,7 @@
 							"parameter_longname" : "live.tab[2]",
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
-							"parameter_enum" : [ "Max - lasers", "Black", "00_space.mov", "hold", "hold", "07_pre-wormwhole.mov", "hold", "hold", "hold", "hold", "09_sandy.mov", "hold", "hold", "hold", "hold" ],
+							"parameter_enum" : [ "Max - lasers", "Black", "00_space.mov", "hold", "hold", "07_pre-wormwhole.mov", "hold", "hold", "hold", "hold", "09_sandy.mov", "hold", "hold", "hold" ],
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 1.0 ],
 							"parameter_unitstyle" : 0
@@ -6865,7 +6914,7 @@
 				"box" : 				{
 					"id" : "obj-105",
 					"maxclass" : "live.tab",
-					"num_lines_patching" : 15,
+					"num_lines_patching" : 14,
 					"num_lines_presentation" : 15,
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -6879,7 +6928,7 @@
 							"parameter_longname" : "live.tab",
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
-							"parameter_enum" : [ "Black", "Black", "Black", "Max - swarp", "hold", "Black", "Black", "Black", "Black", "08_wormhole-v3.mov", "Black", "Black", "Max - akiko", "hold", "Max - porta" ],
+							"parameter_enum" : [ "Black", "Black", "Black", "Max - swarp", "hold", "Black", "Black", "Black", "Black", "08_wormhole-v3.mov", "Black", "Black", "Max - akiko", "10_end.mov" ],
 							"parameter_unitstyle" : 0
 						}
 
@@ -7085,6 +7134,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-51", 0 ],
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-70", 1 ],
 					"midpoints" : [ 189.5, 227.0, 185.5, 227.0 ],
 					"source" : [ "obj-25", 0 ]
@@ -7200,6 +7256,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"source" : [ "obj-51", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-85", 0 ],
 					"source" : [ "obj-53", 0 ]
 				}
@@ -7244,6 +7307,15 @@
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"midpoints" : [ 1179.5, 333.0, 1134.5, 333.0 ],
+					"order" : 1,
+					"source" : [ "obj-61", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-84", 1 ],
+					"order" : 0,
 					"source" : [ "obj-61", 1 ]
 				}
 
@@ -7410,28 +7482,28 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-31" : [ "slider[12]", "slider[3]", 0 ],
-			"obj-40" : [ "slider[13]", "slider", 0 ],
-			"obj-55" : [ "slider[7]", "slider", 0 ],
-			"obj-48" : [ "live.tab[6]", "live.tab", 0 ],
-			"obj-39" : [ "live.tab[4]", "live.tab[4]", 0 ],
-			"obj-12" : [ "slider[4]", "slider[4]", 0 ],
-			"obj-9" : [ "slider[8]", "slider[3]", 0 ],
-			"obj-123" : [ "slider[2]", "slider", 0 ],
-			"obj-134" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-5" : [ "number", "number", 0 ],
-			"obj-47" : [ "slider[6]", "slider[4]", 0 ],
-			"obj-38" : [ "live.tab[3]", "live.tab", 0 ],
-			"obj-105" : [ "live.tab", "live.tab", 0 ],
-			"obj-36" : [ "slider[3]", "slider[3]", 0 ],
-			"obj-6" : [ "slider", "slider", 0 ],
 			"obj-79" : [ "live.tab[7]", "live.tab", 0 ],
-			"obj-45" : [ "live.tab[5]", "live.tab", 0 ],
-			"obj-16" : [ "slider[5]", "slider[4]", 0 ],
-			"obj-25" : [ "slider[10]", "slider[1]", 0 ],
-			"obj-21" : [ "slider[9]", "slider[1]", 0 ],
 			"obj-81" : [ "live.tab[8]", "live.tab", 0 ],
-			"obj-4" : [ "slider[11]", "slider", 0 ]
+			"obj-40" : [ "slider[13]", "slider", 0 ],
+			"obj-134" : [ "live.tab[2]", "live.tab", 0 ],
+			"obj-12" : [ "slider[4]", "slider[4]", 0 ],
+			"obj-36" : [ "slider[3]", "slider[3]", 0 ],
+			"obj-123" : [ "slider[2]", "slider", 0 ],
+			"obj-4" : [ "slider[11]", "slider", 0 ],
+			"obj-5" : [ "number", "number", 0 ],
+			"obj-9" : [ "slider[8]", "slider[3]", 0 ],
+			"obj-55" : [ "slider[7]", "slider", 0 ],
+			"obj-31" : [ "slider[12]", "slider[3]", 0 ],
+			"obj-48" : [ "live.tab[6]", "live.tab", 0 ],
+			"obj-45" : [ "live.tab[5]", "live.tab", 0 ],
+			"obj-105" : [ "live.tab", "live.tab", 0 ],
+			"obj-6" : [ "slider", "slider", 0 ],
+			"obj-47" : [ "slider[6]", "slider[4]", 0 ],
+			"obj-21" : [ "slider[9]", "slider[1]", 0 ],
+			"obj-38" : [ "live.tab[3]", "live.tab", 0 ],
+			"obj-16" : [ "slider[5]", "slider[4]", 0 ],
+			"obj-39" : [ "live.tab[4]", "live.tab[4]", 0 ],
+			"obj-25" : [ "slider[10]", "slider[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -7486,8 +7558,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
